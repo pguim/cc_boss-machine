@@ -1,5 +1,5 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-import thunks from 'redux-thunk';
+import { thunks } from 'redux-thunk';
 
 import minions from './minions';
 import meetings from './meetings';
